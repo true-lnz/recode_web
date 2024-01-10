@@ -95,10 +95,6 @@ svg {
 	transform: translateX(-10vw);
 }
 
-.corousel {
-	background: #f5f5f7;	
-}
-
 .layout-footer {
 	background: #f5f5f7;
 
@@ -251,7 +247,6 @@ svg {
 	border-radius: 16px;
 	padding: 1.5vw 0;
 	margin: 2vw 0;
-
 	overflow: hidden;
 }
 
@@ -284,7 +279,6 @@ svg {
 	overflow: hidden;
 	white-space: nowrap;
 	transition: all 0.2s;
-	will-change: transform;
 	user-select: none;
 	cursor: pointer;
 	z-index: 2;

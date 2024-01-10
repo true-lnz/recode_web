@@ -18,7 +18,7 @@ scrollwrapper.addEventListener('mousemove', (e) => {
   if(!isDown) return;
   e.preventDefault();
   const x = e.pageX - scrollwrapper.offsetLeft;
-  const walk = (x - startX) * 1; //scroll-fast
+  const walk = (x - startX) * 1;
   scrollwrapper.scrollLeft = scrollLeft - walk;
 });
 

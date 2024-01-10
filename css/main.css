@@ -14,6 +14,7 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	scroll-behavior: smooth;
 }
 
 a {
@@ -290,13 +291,13 @@ svg {
 	padding-top: .5vw;
 }
 
-.features {
+.features, .contacts {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 4vw 0;
 }
 
-.features-container {
+.features-container, .contacts-container {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
@@ -317,7 +318,7 @@ svg {
 	width: 100%;
 }
 
-.features-item {
+.features-item, .contacts-item {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -351,6 +352,28 @@ svg {
 
 .features-item-desc {
 	margin-left: 1vw;
+}
+
+.contacts .contacts-item {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.contacts-item-heading {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.contacts-item-desc, .contacts-item-desc span {
+	font-size: 14px;
+
+	padding: 1vw 0;
+}
+
+.underline-link {
+	font-weight: 500;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .arrow-right {
@@ -488,8 +511,30 @@ svg {
 	font-size: 1.5rem;
 	padding-bottom: .5vw;
 }
-/* #212830 */
-/* #343f48 */
+
+.Contacts_breadcrumbs {
+	margin-bottom: 1vw;
+}
+
+.breadcrumb-container {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumb-item {
+	font-weight: 500;
+}
+
+.breadcrumb-item.breadcrumb-second {
+	font-weight: 400;
+	color:#7a7e83;
+}
+
+
+
+/* color: #212830 */
+/* color: #343f48; */
 
 /* background: #373e45; */
 /* border: 1.6px solid #7a7e83; */

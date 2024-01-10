@@ -58,7 +58,7 @@
 .drag-n-drop {
 	border: 2px dotted #d3d4d6;
 	margin: 1vw 0;
-	padding: 2vw 1vw;
+	padding: 1vw;
 	width: 25vw;
 	border-radius: 16px;
 }
@@ -66,10 +66,16 @@
 .import-script {
 	display: flex;
 	margin-left: 9.5vw;
+	align-items: center;
 }
 
 .open-file {
+	padding: .5vw 2vw;
 	
+	background: #005de0;
+	color:#fff;
+	border: none;
+	border-radius: 8px;
 }
 
 .CodeMirror {

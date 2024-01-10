@@ -35,9 +35,6 @@
 		</div>
 	</header>
 	<main class="layout-main">
-		<div class="corousel">
-
-		</div>
 		<section class="hero">
 			<div class="hero-left m-l">
 				<h1 class="hero-heading">reCode</h1>
@@ -46,7 +43,6 @@
 			</div>
 			<div class="hero-right m-r">
 				<video src="./video/v4.webm" playsinline autoplay muted loop preload="auto" autoplay="" disablepictureinpicture="" controlslist="nodownload noplaybackrate" data-qa="video-player" playsinline="" loop=""></video>
-				<!-- <video preload="auto" autoplay src="./video/v4.webm" loop></video> -->
 			</div>
 		</section>
 		<section class="features m-l m-r">
@@ -79,18 +75,37 @@
 			</ul>
 		</section>
 
-		<section class="m-r m-l">
-			<span class="section-heading">Нам доверяют</span>
-			
-		</section>
-
 		<section class="m-r m-l partners">
-			<span>Нам доверяют</span>
-			<div class="carousel-container">
-			</div>
-			<div class="carousel-buttons">
-				<div class="carousel-button-left"></div>
-				<div class="carousel-button-right"></div>
+			<span class="section-heading">Нам доверяют</span>
+			<div class="partners-carousel">
+				<button class="carousel-button scroll-left" onclick="scrollToLeft()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z" />
+					</svg>
+				</button>
+				<div class="carousel-container horizontal-scroll-wrapper">
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p1.png" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p2.png" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p3.png" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p4.png" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p2.png" alt="">
+					</div>
+					<div class="carousel-item">
+						<img class="c-icon" src="./img/p5.png" alt="">
+					</div>
+				</div>
+				<button class="carousel-button scroll-right" onclick="scrollToRight()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M6.079,22.5a1.5,1.5,0,0,1,.44-1.06l7.672-7.672a2.5,2.5,0,0,0,0-3.536L6.529,2.565A1.5,1.5,0,0,1,8.65.444l7.662,7.661a5.506,5.506,0,0,1,0,7.779L8.64,23.556A1.5,1.5,0,0,1,6.079,22.5Z" />
+					</svg>
+					</button>
 			</div>
 		</section>
 
@@ -167,7 +182,6 @@
 						<li class="footer-link"><a href="https:/vk.com/recode_official">Мы Вконтакте</a></li>
 						<li class="footer-link"><a href="">Другие проекты</a></li>
 						<li class="footer-link"><a href="">Помощь</a></li>
-
 					</ul>
 				</div>
 				<div class="footer-right">
@@ -190,5 +204,6 @@
 		</div>
 	</footer>
 
+	<script defer src="./js/carousel.js"></script>
 </body>
 </html>

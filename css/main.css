@@ -144,6 +144,7 @@ svg {
 .button-link {
 	text-decoration: none;
 	color: #212830;
+	background-color: transparent;
 
 	border:none;
 	outline: 1px solid #005de0;

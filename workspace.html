@@ -42,22 +42,25 @@
 	</header>
 
 	<main class="layout-main">
-		<span class="demo-heading m-l">Демо-версия переводчика VBA макроса в JavaScript</span>
+		<span class="demo-heading">Демо-версия переводчика VBA макроса в JavaScript</span>
 		<div class="converter-container">
-			<div class="converter-header">
+			<div class="converter-left">
 				<div class="import-script">
 					<div class="drag-n-drop"><span>Перетащите или кликните чтобы открыть файл ...</span></div>
-					<button class="open-file">Открыть</button>
+					<button class="open-file button-link l-button"><i class="bi bi-folder2-open"></i> Открыть</button>
 				</div>
-			</div>
-			<div class="converter-left">
 				<div id="from" class="editor"></div>
 			</div>
 			<div class="converter-right">
+				<div class="export-script">
+					<button class="copy-btn button-link l-button"><i class="bi bi-copy"></i> Копировать</button>
+					<button style="color: #005de0; font-weight: 500;" class="save-file button-link l-button">Скачать</button>
+				</div>
 				<div id="to" class="editor"></div>
 			</div>
-			<button class="convert-button">Преобразовать</button>
 		</div>
+		<button class="convert-button">Преобразовать</button>
+
 	</main>
 
 	<footer class="layout-footer">

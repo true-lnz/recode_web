@@ -68,7 +68,7 @@
 }
 
 .open-file, .save-file, .copy-btn {
-	background: transparent;
+	background: white;
 	padding: 1vw .8vw;
 	border-radius: 8px;
 }

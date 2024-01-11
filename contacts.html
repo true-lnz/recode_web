@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>reCode.ru - Контакты</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,300" rel="stylesheet" type="text/css">
-	<link href="./css/main.css" rel="stylesheet" type="text/css">
-	<link href="./css/contacts.css" rel="stylesheet" type="text/css">
-	<link rel="icon" href="./img/r6.ico">
+	<link th:href="@{/css/main.css}" rel="stylesheet" type="text/css">
+	<link th:href="@{/css/contacts.css}" rel="stylesheet" type="text/css">
+	<link rel="icon" th:href="@{/img/r6.ico}">
 </head>
 <body>
 	<header class="layout-header">
 		<div class="header-top">
-			<span><a class="m-l logo"><img style="width: 8.5vw;" src="./img/r7.png" alt=""></a></span>
+			<span><a class="m-l logo"><img style="width: 8.5vw;" th:href="@{/img/r7.png}" alt=""></a></span>
 			<div class="search"><i class="bi bi-search"></i> Поиск</div>
 			<div class="header-buttons">
 				<a class="button-link">Зарегистрироваться</a>
@@ -76,7 +76,7 @@
 	<footer class="layout-footer">
 		<div class="footer-wrapper m-l m-r">
 			<div class="footer-logo-link">
-				<img style="transform: translateY(.125rem);" width="150" src="./img/r7.png" alt="">
+				<img style="transform: translateY(.125rem);" width="150"  th:href="@{/img/r7.png}" alt="">
 			</div>
 			<div class="footer-top">
 					<div class="footer-column">

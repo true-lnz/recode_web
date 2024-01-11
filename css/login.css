@@ -175,7 +175,7 @@ u {
 
 .account-type {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	overflow: hidden;
 	border-radius: .5rem;
 	margin-bottom: .5vw;
@@ -187,7 +187,7 @@ u {
 	display: flex;
 	justify-content: center;
 	padding: .5vw 0;
-	width: 11vw;
+	width: 10.5vw;
 }
 
 .type-left.active, .type-right.active {
